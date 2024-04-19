@@ -1,5 +1,6 @@
-pdef line():
-    import math
+import math
+def line():
+
     variable_a=float(input("Ingrese el coeficiente A:"))
     variable_b=float(input("Ingrese el coeficiente B:"))
     variable_x1=float(input("Ingrese el coeficiente X1:"))
@@ -18,7 +19,7 @@ pdef line():
     print(f"\tP1 ({variable_x1}, {variable_y1})")
     print(f"\tP2 ({variable_x2}, {variable_y2})")
     print()
-    variable_p1(
+    P1=[variable_x1,variable_y1]
+    P2=[variable_x2,variable_y2]
     variable_distance= math.dist(P1,P2)
     print(f"La distancia entre ellos es:{variable_distance}")
-    
